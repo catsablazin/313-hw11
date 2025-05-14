@@ -3,7 +3,7 @@ inputBuf:    db 0x5A, 0x6C, 0x0A, 0x1B, 0x2C, 0x3D, 0x4E, 0x5F
 inputLen     equ $ - inputBuf   ; calculates num of bytes in input
 
 section .bss
-outputBuf:   resb 80            ; reserves spans for ascii hex output
+outputBuf:   resb 80            ; reserves space for ascii hex output
 
 section .text
 global _start
